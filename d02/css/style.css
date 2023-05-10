@@ -1,0 +1,57 @@
+body,ul{
+    margin:0;
+}
+.top-header{
+    background-color: black;
+    color:white;
+}
+.container{
+max-width: 1200px;
+margin:0 auto;
+padding:0 20px;
+}
+
+.flex-container {
+    display:flex;
+}
+
+.container.flex-container {
+    justify-content:space-between;
+}
+
+ul{
+    list-style:none;
+}
+
+.contact-header ul li a,
+.social-header ul li a{
+    color:white;
+    text-decoration:none;
+}
+
+.contact-header  ul li a{
+    padding-right:20px;
+}
+
+.social-header  ul li a{
+    padding-right:20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: gray;
+    padding-left: 20px;
+}
+
+.logo{
+    padding:10px 0;
+}
+
+.nav-header .flex-container{
+    align-items:center;
+}
+
+.logo img {
+    padding-left:35px;
+    display:block;
+}

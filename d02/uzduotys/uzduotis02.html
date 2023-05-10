@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        table, th, td {
+          border:1px solid black;
+        }
+        </style>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img class="img-fluid" src="https://www.vilniuscoding.lt/wp-content/themes/vcs/assets/img/logo-01.svg" alt="Coding School" width="500">
+    <h2>About</h2>
+    <p> <strong>Lorem ipsum</strong> is simply dummy text for <em>typing and printing</em>. Ad exercitationem corrupti vitae sint? Quo fugiat velit quis, saepe asperiores, possimus dolorum quae voluptate esse laboriosam fuga, magni vel! Ducimus, ab!</p>
+
+    <h2>Projects</h2>
+    <ul>
+        <li>
+            <p>Featured</p>
+            <ul>
+                <li><a href="#">Project1</a></li>
+                <li><a href="#">Project2</a></li>
+            </ul>
+        </li>
+        <li>
+            <p>Latest</p> 
+            <ul>
+                <li><a href="#">Project3</a></li>
+                <li><a href="#">Project4</a></li>
+            </ul>
+        </li>
+    </ul>
+
+    <h2>Festival schedule</h2>
+    <table border>
+        <tr>
+          <th> Time </th>
+          <th> Topic </th>
+        </tr>
+        <tr>
+            <td> 9:00-12:00 </td>
+            <td> Registration </td>
+        </tr>
+        <tr>
+            <td> 12:00-14:00 </td>
+            <td> Keynote </td>
+        </tr>
+      </table>
+
+      <h2>Sign up!</h2>
+      <form action="">
+        <div>
+            <label for="fname">Name:</label>
+            <input type="text" id="fname" name="firstname" placeholder="Enter your name">   
+        </div>
+
+        <div>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" placeholder="Enter your email">
+        </div>
+        
+        <div>
+            <label for="location">Location:</label>
+            <select name="location" id="location" >
+                <option disabled selected hidden>Choose city</option>
+                <option value="kaunas">Kaunas</option>
+                <option value="vilnius">Vilnius</option>
+            </select>
+        </div>
+
+        <div>
+            Gender:
+            <input type="radio" name="gender" value="male" > Male
+            <input type="radio" name="gender" value="female"> Female
+        </div>
+
+        <div>
+            Message: <br>
+            <textarea placeholder="Your message" name="" rows="5" cols="30"></textarea>
+            <br>
+        </div>
+
+        <div>
+            <button type="button">Sing Up</button>
+        </div>
+      </form>
+        
+
+</body>
+</html>

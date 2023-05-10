@@ -1,0 +1,103 @@
+/* Pritaikyk CSS stiliu siems HTML elementams. 
+KEISTI HTML NEGALIMA. RASOME TIK CSS! 
+
+/* Pakeisti <body> elemento fonine spalva i #bdc3c7*/
+
+body{
+background-color: #bdc3c7;
+}
+
+/* Pakeisti <h1> elemento spalva i #9b59b6*/
+h1{
+    color:#9b59b6;
+}
+
+
+/* Pakeisti visu <h2> elementu spalva i orange */
+
+h2{
+    color:orange;
+}
+
+/* Pakeisti visu <li> elementu spalva i melyna, HEX koda pasirinkite savo (Google colorpicker)*/ 
+
+li{
+    color:#0000FF;
+}
+
+/* Pakeisti kiekvieno paragrafo fona i geltona*/
+
+p{
+    background-color: yellow;
+}
+
+/*Visi input turi buti su remeliu (border: 3px solid red;)*/
+
+input{
+    border: 3px solid red;
+}
+
+
+/* Visi elementai su klase 'hello', turi balta fona*/
+
+.hello{
+    background-color: white;
+}
+
+
+/* Elementas su klase 'special' yra su 2px melynu remeliu, spalvos koda pasirinkite savo (border: 3px solid #XXXXXX;)*/
+
+.special{
+    border: 2px solid #0000FF;
+}
+
+/*Visu <p> kurie yra <div> viduje, srifto dydis yra 25px (font-size: 25px)*/
+
+div p{
+    font-size: 25px;
+}
+
+/*BONUS UZDUOTYS*/
+/* gali reiketi google pagalbos*/
+
+/*<input> elementai su type="text" atributu turi pilka fona*/
+
+input[type="text"]{
+    background-color: gray;
+}
+
+/* Abu <p> kurie yra trecio <div> viduje, turi ruzava fona*/
+
+div:nth-of-type(3) p{
+    
+    background-color: pink;
+}
+
+
+/* Label elementu tekstas yra rasomas didziosiomis raidemis*/
+
+Label{
+    text-transform: uppercase;
+}
+
+
+/* Pirmoji raide elementuose su klase "special" yra zalios spalvos ir 100px dydzio*/
+
+.special::first-letter{
+color: green;
+font-size: 100px;
+}
+
+
+/* h1 elementu spalva pasikecia i melyna, kai ant ju uzvedama pele */
+
+h1:hover{
+    color:blue;
+}
+
+/* Aplankytos nuorodos <a> yra pilkos spalvos */
+
+a:visited{
+    color:gray;
+}
+
