@@ -1,0 +1,84 @@
+html, body {
+    background-color: #ffeead;
+    margin: 10px;
+}
+
+/* .container {
+    display: grid;
+    grid-gap: 3px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 40px 40px 40px 40px;
+    grid-template-areas:
+    "r r m m"
+    "z v v v"
+    "g g g g"
+}
+
+.raudona{
+    background-color: red;
+    grid-area: r;
+    border-radius : 5px;
+}
+
+.zalia {
+    background-color: green;
+    grid-area: z;
+    border-radius : 5px;
+}
+
+.melyna{
+    background-color: blue;
+    grid-area: m;
+    border-radius : 5px;
+    
+}
+
+.violetine{
+    background-color: purple;
+    grid-area: v;
+    border-radius : 5px;
+}
+
+.geltona{
+    background-color: yellow;
+    grid-area: g;
+    border-radius : 5px;
+} */
+
+.container {
+    display: grid;
+    grid-gap: 3px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 40px 40px 40px 40px;
+}
+
+.raudona{
+    background-color: red;
+    grid-column: 1/3;
+    border-radius : 5px;
+}
+
+.zalia {
+    background-color: green;
+    grid-column: 1/2;
+    border-radius : 5px;
+}
+
+.melyna{
+    background-color: blue;
+    grid-column: 3/5;
+    border-radius : 5px;
+    
+}
+
+.violetine{
+    background-color: purple;
+    grid-column: 2/5;
+    border-radius : 5px;
+}
+
+.geltona{
+    background-color: yellow;
+    grid-column: 1/-1;
+    border-radius: 5px;
+}
