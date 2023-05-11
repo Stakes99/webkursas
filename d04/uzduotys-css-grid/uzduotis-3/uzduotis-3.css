@@ -9,13 +9,17 @@ p {
 .sidebar2 p{
     color:black
 }
+
+.container{
+    display: grid;
+    grid-gap: 1px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
 /* telefonas */
 @media (max-width: 600px)
 {
     .container {
-        display: grid;
-        grid-gap: 1px;
-        grid-template-columns: repeat(4, 1fr);
         grid-template-rows: 50px 80px auto 80px 50px;
         grid-template-areas:
         "h h h h"
@@ -29,9 +33,6 @@ p {
 @media (min-width: 600px)
 {
     .container {
-        display: grid;
-        grid-gap: 1px;
-        grid-template-columns: repeat(4, 1fr);
         grid-template-rows: 50px auto 80px 50px;
         grid-template-areas:
         "h h h h"
@@ -44,9 +45,6 @@ p {
 @media (min-width: 900px)
 {
     .container {
-        display: grid;
-        grid-gap: 1px;
-        grid-template-columns: repeat(4, 1fr);
         grid-template-rows: 50px auto 50px;
         grid-template-areas:
         "h h h h"
