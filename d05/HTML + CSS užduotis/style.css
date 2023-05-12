@@ -8,7 +8,6 @@ html, body{
 }
 
 h1{
-    display: flex;
     color: white;
     font-weight: 400;
 }
@@ -21,10 +20,11 @@ h2{
 
 header{
     background-color: #177cc2;
-    height: 8vh;
     display: flex;
+    height: 8%;
     justify-content: left;
     padding-left: 30px;
+    align-content: center;
 }
 
 .gallery{
