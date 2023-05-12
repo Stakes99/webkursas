@@ -34,6 +34,7 @@ header{
 
 .imgcard{
     box-shadow: 0px 0px 20px gray;
+    background-color: white;
     margin: 10px 10px;
     font-size: 18px;
     width: calc(33% - 30px)
