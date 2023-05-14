@@ -51,7 +51,7 @@ header {
 /* banner */
 
 .banner {
-  background-image: url("/Baigiamasis/images/banner.png");
+  background-image: url("images/banner.png");
   display: flex;
   justify-content: flex-start;
   align-items: center;
