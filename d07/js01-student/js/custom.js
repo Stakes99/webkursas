@@ -57,3 +57,34 @@
 //     sum += skaiciai[i]
 // }
 // console.log(sum)
+
+// let turimVarda = false
+
+// while(turimVarda == false) {
+//     let userVardas = prompt ("Koks tavo vardas?")
+//     if (userVardas) {
+//         if (confirm(`Ar tikrai tavo vardas ${userVardas}?`)) {
+//             alert(`Labas, ${userVardas} !`)
+//             turimVarda = true
+//         } else {
+//             alert("Bandyk dar kart.") 
+//         }
+//     } else {
+//         alert("Bandyk dar kart.")
+//     }
+// }
+
+// let studentai = ["Lukas", "Kestutis", "Silvija", "Ursule", "Laurynas"]
+// console.log(studentai)
+
+// studentai.pop()
+// console.log(studentai)
+
+// studentai.push("Arturas")
+// console.log(studentai)
+
+// let pirmasMasyvas = ["Sesi", 5, "Zuvis", "Trylika"]
+// let antrasMasyvas = ["Raudonas", "Melynas","Geltonas", "Zalias"]
+// let masyvuMasyvas = [pirmasMasyvas, antrasMasyvas]
+
+// console.log(masyvuMasyvas)

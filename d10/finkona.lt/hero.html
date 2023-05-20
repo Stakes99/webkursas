@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="hero-banner">
+        <video class="hero-video" autoplay muted loop>
+          <source src="https://video.wixstatic.com/video/11062b_35e9c1a919df41df8b95c20340739349/1080p/mp4/file.mp4" type="video/mp4">
+        </video>
+        <div class="color-overlay"></div>
+        <div class="hero-content">
+          <h1 class="hero-heading"><em>ĮKVEPIANTYS SPRENDIMAI</em></h1>
+          <div class="tarpas"></div>
+          <div class="hero-buttons">
+            <button>BUHALTERINĖ APSKAITA</button>
+            <button>DARBŲ SAUGA</button>
+            <button>GPAIS</button>
+          </div>
+          <div class="container">
+            <h1>SKAIČIAI KALBA UŽ MUS</h1>
+            
+            <div class="number-columns">
+              <div class="column">
+                <h2><span id="count1">0</span></h2>
+                <p>Metų patirtis</p>
+              </div>
+              
+              <div class="column">
+                <h2><span id="count2">0</span></h2>
+                <p>Specialistų</p>
+              </div>
+              
+              <div class="column">
+                <h2><span id="count3">0</span></h2>
+                <p>Mokestinių konsultacijų per 2018 metus</p>
+              </div>
+              
+              <div class="column">
+                <h2><span id="count4">0</span></h2>
+                <p>Valandų per metus, skirtų klientams</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <script>
+        // JavaScript code for counting up the numbers
+        function countUp(target, start, end, duration) {
+          let range = end - start;
+          let current = start;
+          let increment = end > start ? 1 : -1;
+          let stepTime = Math.abs(Math.floor(duration / range));
+          let element = document.getElementById(target);
+          let timer = setInterval(function() {
+            current += increment;
+            element.textContent = current;
+            if (current == end) {
+              clearInterval(timer);
+            }
+          }, stepTime);
+        }
+    
+        // Trigger the countUp function on page load
+        window.addEventListener('load', function() {
+          countUp('count1', 0, 10, 1000);
+          countUp('count2', 0, 17, 1500);
+          countUp('count3', 0, 926, 2000);
+          countUp('count4', 0, 32000, 2500);
+        });
+      </script>
+</body>
+</html>

@@ -48,19 +48,19 @@
   <section class="work container">
     <div class="row flex-container">
       <div class="col">
-        <h2>Project Plan</h2>
+        <h3>Project Plan</h3>
         <p>There are many variations of the passages of lorem Ipsum from 
           available, majority.</p>
         <button class="read-button">Read More <i class="bi bi-arrow-right"></i></button>
       </div>
       <div class="col">
-        <h2>Interior Work</h2>
+        <h3>Interior Work</h3>
         <p>There are many variations of the passages of lorem Ipsum from 
           available, majority.</p>
         <button class="read-button">Read More <i class="bi bi-arrow-right"></i></button>
       </div>
       <div class="col">
-        <h2>Realisation</h2>
+        <h3>Realisation</h3>
         <p>There are many variations of the passages of lorem Ipsum from 
           available, majority.</p>
         <button class="read-button">Read More <i class="bi bi-arrow-right"></i></button>
@@ -97,49 +97,83 @@
 
   <!-- testimonial -->
   <section class="testimonial">
-    <div class="testimonial container flex-container">
-      <h2>What the People Think About Us</h2>
-      <div class="testimonial-cards flex-container">
-        <div class="testmonial-card">
-          <div class="person-header flex-container">
-            <img src="images/testimonial1.png" alt="Picture of Nattasha">
-            <div class="person-info">
-              <h3>Nattasha Mith</h3>
-              <p>Sydney, USA</p>
+    <div class="container">
+      <h2 class="testimonial-heading">What the People Think About Us</h2>
+      <div class="testimonial-cards">
+        <div class="testimonial-card">
+          <div class="testimonial-author flex-container">
+            <img src="images/testimonial1.png" alt="Testimonial 1">
+            <div class="name-location flex-container">
+              <h3>Natasha Mith</h3>
+              <p>Washington, USA</p>
             </div>
           </div>
-          <p>Lorem Ipsum is simply dummy 
+          <p class="testimonial-text">Lorem Ipsum is simply dummy 
             text of the typesetting industry. 
             Ipsum has been.</p>
         </div>
-        <div class="testmonial-card">
-          <div class="person-header flex-container">
-            <img src="images/testimonial1.png" alt="Picture of Nattasha">
-            <div class="person-info">
-              <h3>Nattasha Mith</h3>
-              <p>Sydney, USA</p>
+        <div class="testimonial-card">
+          <div class="testimonial-author flex-container">
+            <img src="images/testimonial2.png" alt="Testimonial 2">
+            <div class="name-location flex-container">
+              <h3>Raymond Galario</h3>
+              <p>Sydney, Australia</p>
             </div>
           </div>
-          <p>Lorem Ipsum is simply dummy 
+          <p class="testimonial-text">Lorem Ipsum is simply dummy 
             text of the typesetting industry. 
-            Ipsum has been.</p>
+            Ipsum has been scrambled it 
+            to make a type book.</p>
         </div>
-        <div class="testmonial-card">
-          <div class="person-header flex-container">
-            <img src="images/testimonial1.png" alt="Picture of Nattasha">
-            <div class="person-info">
-              <h3>Nattasha Mith</h3>
-              <p>Sydney, USA</p>
+        <div class="testimonial-card">
+          <div class="testimonial-author flex-container">
+            <img src="images/testimonial3.png" alt="Testimonial 3">
+            <div class="name-location flex-container">
+              <h3>Benny Roll</h3>
+              <p>New York, USA</p>
             </div>
           </div>
-          <p>Lorem Ipsum is simply dummy 
+          <p class="testimonial-text">Lorem Ipsum is simply dummy 
             text of the typesetting industry. 
-            Ipsum has been.</p>
+            Ipsum has been scrambled.</p>
         </div>
-      </div>      
+      </div>
     </div>
   </section>
 
-  <div class="container flex-container"><p>assdf</p></div>
+  <!-- client logo -->
+
+  <section class="client-logo">
+    <div class="logos container flex-container">
+      <img src="images/clientlogo1.png" alt="logo 1">
+      <img src="images/clientlogo2.png" alt="logo 2">
+      <img src="images/Clientlogo3.png" alt="logo 3">
+      <img src="images/clientlogo4.png" alt="logo 4">
+      <img src="images/clientlogo5.png" alt="logo 5">
+    </div>
+
+
+  </section>
+
+  <!-- contact form -->
+  <section class="contact-form-section">
+    <div class="form container flex-container">
+      <h2>Contact form</h2>
+      <form class="contact-form">
+          <label for="name"></label>
+          <input class="left" type="text" id="name" name="name" placeholder="Name" required>
+          <label for="email"></label>
+          <input type="email" id="email" name="email" placeholder="Email" required>
+          <label for="subject"></label>
+          <input class="left" type="text" id="subject" name="subject" placeholder="Subject" required>
+          <label for="phone"></label>
+          <input type="tel" id="phone" name="phone" placeholder="Phone">
+          <label for="message"></label>
+          <textarea id="message" name="message" required placeholder="Hello I am Interested in.."></textarea>
+          <button class="btn" type="submit">Send Now <i class="bi bi-arrow-right"></i> </button>
+      </form>
+
+    </div>
+  </section>
 </body>
 </html>
